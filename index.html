@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO MY BABY WURA</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Dancing+Script&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%);
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            padding: 10px; /* Reduced for mobile */
+        }
+
+        .container {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+            max-width: 100%; /* Full width on mobile */
+            width: 100%;
+            padding: 10px; /* Reduced padding for mobile */
+            box-shadow: none; /* Removed for mobile */
+            border-radius: 8px; /* Reduced for mobile */
+        }
+
+        h1 {
+            font-family: 'Lobster', cursive;
+            font-size: 2.5rem; /* Adjust for mobile */
+            color: #ffffff;
+            margin-bottom: 15px; /* Reduced margin for mobile */
+        }
+
+        .love-letter {
+            margin: 10px 0;
+            color: #333;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.1rem; /* Increased slightly for better visibility on small screens */
+            font-weight: bold; /* Added for bold text */
+            background: none; /* Removed background */
+        }
+
+        .video-container {
+            margin: 10px 0;
+        }
+
+        video {
+            width: 100%; 
+            max-width: 500px; /* Ensure video doesn't stretch too wide on larger screens */
+            height: auto;
+            border-radius: 8px;
+            box-shadow: none; /* Removed for mobile */
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 1rem; /* Kept larger for touch interaction */
+            background-color: #ff6f61;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%; /* Full width for mobile touch */
+            max-width: 250px; /* But not too wide */
+            margin-top: 15px; /* Added for better touch interaction */
+        }
+
+        button:hover {
+            background-color: #ff9a9e;
+        }
+
+        .playlist-link {
+            display: none;
+            margin-top: 20px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @media (max-width: 320px) {
+            h1 {
+                font-size: 2rem; /* Smaller for very small screens */
+            }
+            .love-letter {
+                font-size: 1rem; /* Adjust for readability on tiny screens */
+            }
+            button {
+                font-size: 0.9rem; /* Smaller for tiny screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mon Amour</h1>
+        <p>I Love you GBEDIKPON 😍</p>
+        <div class="love-letter">
+            <p>It's hard to put into words how much I miss you, because no combination of words could ever truly capture how empty I feel without you.</p>
+            <p>Every moment apart feels like a piece of my happiness is missing, but knowing that I'll get to hold you again keeps me going.</p>
+            <p>Your laughter, your warmth, your presence—they all linger in my heart.</p>
+            <p>You make love feel magical.</p>
+        </div>
+        <div class="video-container">
+            <video controls playsinline>
+                <source src="/IMG_6145.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Question & Button -->
+        <p>Do you miss me?</p>
+        <!-- Button now wrapped inside an anchor tag to redirect to the Spotify link -->
+        <a href="https://open.spotify.com/track/2PxUUGpUBoHcDUrPKNstTE" target="_blank">
+            <button>Yes</button>
+        </a>
+
+    </div>
+</body>
+</html>
